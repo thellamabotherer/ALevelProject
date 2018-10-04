@@ -18,7 +18,7 @@ public class Polygon {
 	}
 	
 	public void render(Window window, Map map) {
-		window.beginLineRender();
+		window.beginTriangleRender();
 		window.polyOffsetLine(-1, -1);
 		window.changeColour(this.colour);
 		

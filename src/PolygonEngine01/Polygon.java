@@ -17,7 +17,7 @@ public class Polygon {
 	
 	public void render (Window window, Map map) {
 
-		window.beginLineRender();
+		window.beginTriangleRender();
 		
 		for (int i = 0; i < this.vertices.size(); i++) {
 			

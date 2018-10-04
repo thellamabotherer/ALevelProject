@@ -66,7 +66,7 @@ public class Window {
 		GL11.glBegin(GL_TRIANGLES);
 		GL11.glClear(GL_COLOR_BUFFER_BIT);
 		
-	}public void beginLineRender () {
+	}public void beginTriangleRender () {
 		GL11.glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
 		GL11.glBegin(GL_TRIANGLES);
 		GL11.glClear(GL_COLOR_BUFFER_BIT);

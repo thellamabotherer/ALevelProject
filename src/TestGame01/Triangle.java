@@ -47,7 +47,7 @@ public class Triangle {
 		
 		// draw slightly smaller triangle in grey to show lines
 		
-		window.beginLineRender ();
+		window.beginTriangleRender ();
 		window.polyOffsetLine(-1, -1);
 		window.changeColour(colour);
 		window.addVertex(vertices[0].getPos());

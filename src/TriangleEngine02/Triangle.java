@@ -25,7 +25,7 @@ public class Triangle {
 	}
 
 	public void render(Window window) {
-		window.beginLineRender();
+		window.beginTriangleRender();
 		window.polyOffsetLine(-1, -1);
 		window.changeColour(this.col);
 		window.addVertex(vertices[0].getPos());
